@@ -1,0 +1,49 @@
+<div class="mainScreen">
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card shadow">
+                    <div class="divCenter pt-4">
+                        <img src="../../../assets/img/Billingsof.svg" alt="" style="width: 75%;">
+                    </div>
+                    <form [formGroup]="formAccess">
+                        <div class="row divCenter pb-4" *ngIf="!flagLoader">
+                            <div class="col-8 text-center">
+                                <span>Ingresa tu R.U.C o cédula de administrador</span>
+                            </div>
+                            <div class="col-10 pt-3">
+                                <input formControlName="ruc" placeholder="R.U.C" type="text" class="form-control form-control-sm rounded-3 ">
+                            </div>
+                            <div class="col-10 d-grid pt-3">
+                                <button class="btn btn-sm btn-danger rounded-3"
+                                    (click)="accessSystem(formAccess.value)">
+                                    Acceder <i class="bi bi-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div *ngIf="flagLoader " class="p-4" >
+                            <app-loader class="divCenter" [flagLoader]="flagLoader"></app-loader>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col">
+                <div class="container pt-5">
+                    <h1 class="titleOne">Accede a todas</h1>
+                    <h1 class="titleDos">TUS EMPRESAS</h1>
+                    <div class="" style="line-height: 0.5em;">
+                        <p style="text-align: right;">
+                            <b>Sofpymes Hub</b> es el sitio donde puedes encontrar tus
+                        </p>
+                        <p style="text-align: right;">
+                            negocios registrados a Billingsof
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

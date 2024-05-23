@@ -1,0 +1,27 @@
+.mainScreen2{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../../assets/img/Nodos.png');
+    background-position: right;
+    background-repeat: no-repeat;
+
+}
+
+.cabecera{
+    background-image: url('../../../assets/img/Degradado.png');
+    width: auto;
+    height: 22vh;
+}
+
+span{
+   
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 1.15em;
+}
+
+.card{
+    border-radius: 15px;
+    // width: 25em;
+    border: 1px solid transparent;
+}

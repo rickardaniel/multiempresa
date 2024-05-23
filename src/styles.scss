@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+
+.divCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleOne{
+    text-shadow: gray 0.1em 0.1em 0.2em;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+    // font-style: italic; 
+    color: rgb(80, 79, 79);
+    text-align: right;
+}
+.titleUno{
+    text-shadow: gray 0.1em 0.1em 0.2em;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+    // font-style: italic; 
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.titleDos{
+    text-shadow: rgb(182, 151, 151) 0.1em 0.1em 0.2em;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4em;
+    // font-style: italic; 
+    color: rgb(189, 66, 66);
+    text-align: right;
+}
